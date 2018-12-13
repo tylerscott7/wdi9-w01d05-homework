@@ -245,5 +245,9 @@ const kristynsCloset = [
   // 8.
   thomsCloset[1][2] = "Footie Pajamas"
   //
-  //
+  // FUNCTIONS:
+  // A.
+  function printGreeting (name){
+      console.log(`Hello there, ${name}`)
+  }
   
