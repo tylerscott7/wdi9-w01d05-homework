@@ -298,4 +298,18 @@ function maxOfThree(num1,num2,num3){
     return biggest;
 }
 console.log(maxOfThree(6, 9, 1))
-//
+// H.
+function printLongestWord(strArray){
+    //Iterate through and save length values and compare to previous
+    let longest = ''
+    let leng = 0
+    for (let i=0; i<strArray.length; i++){
+        if (strArray[i].length > leng){
+            longest = strArray[i]
+            leng = strArray[i].length
+        }
+    }
+    return longest
+}
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+// 
