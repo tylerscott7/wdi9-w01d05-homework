@@ -91,3 +91,25 @@ for (let i=12;i<=400;i+=3){
 for (let i=0; i<=100;i+=2){
     console.log(i + "<-- is an even number");
 };
+// SECTION C - GIVE ME FIVE:
+// 1. 2.
+for (let i = 1; i<100; i++){
+    if (i%5==0){
+        console.log(`I found a ${i}. High five!`);
+    } else if(i%3==0){
+        console.log(`I found a ${i}. Three is a crowd`);
+    };
+};
+// SECTION D - SAVINGS ACCOUNT:
+// 1.
+let bank_account = 0;
+for (let i=0;i<=10;i++){
+    bank_account += i;
+};
+console.log(bank_account);
+// 2.
+let bank_account2 = 0;
+for (let i=0;i<=100;i++){
+    bank_account2 += i*2;
+};
+console.log(bank_account2);
