@@ -86,3 +86,8 @@ for (let i=10;i<=400;i++){
 for (let i=12;i<=400;i+=3){
     console.log(i);
 };
+// SECTION B - GET EVEN:
+// 1. 2.
+for (let i=0; i<=100;i+=2){
+    console.log(i + "<-- is an even number");
+};
