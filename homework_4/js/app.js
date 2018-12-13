@@ -373,15 +373,27 @@ console.log(getRandomElement(quotes2))
 //
 // OBJECTS
 // A.
-const user = {
+const User = {
     name: "Bobby",
     email: "yass.edu",
     age: 7,
     purchased: [],
 };
 // B. Update The User without changing original
-const newUser = new user;
+const newUser = User;
 newUser.email = "ayyy.edu";
 // 2.
 newUser.age++
 // C. Adding keys and values
+// 1.
+newUser.location = "denver"
+// D. Shopaholic
+// 1.
+newUser.purchased.push("carbohydrates");
+// 2.
+newUser.purchased.push("peace of mind");
+// 3.
+newUser.purchased.push("Merino jodhpurs");
+// 4.
+console.log(newUser.purchased[2]);
+// E. Object Within Object
