@@ -1,4 +1,4 @@
-//    Q + A
+//    A. Q + A
 // 1. How do we assign a value to a variable?
 // A. By initializing a variable with let or const and
 //    setting it equal to a value.
@@ -25,7 +25,7 @@
 // A. Much more time should be spent coming up with the solution
 //    than actually programming. Roughly 90% to 10%.
 //
-//    Strings
+//    B. Strings
 // 1. 
 let firstVariable = "Hello World";
 firstVariable = 50;
@@ -36,5 +36,24 @@ secondVariable = "Hello";
 let yourName = "Tyler";
 let newString = "Hello, my name is " + yourName;
 //
-//    Booleans
+//    C. Booleans
 // 1. 
+const a = 4;
+const b = 53;
+const c = 57;
+const d = 16;
+const e = 'Kevin';
+
+console.log(a < b);
+console.log(c > d);
+console.log('Name' === 'Name');
+console.log(true || false);
+console.log(false || false || false || false || false || false || true);
+console.log(false === false)
+console.log(e === 'Kevin');
+console.log(a + b == c);
+console.log(a * a === d);
+console.log(48 == '48');
+//
+//    D. The farm
+//
