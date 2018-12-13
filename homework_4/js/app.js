@@ -182,3 +182,11 @@ if (int < 100){
 //
 // SECTION G - Monkey In The Middle
 // 1.
+let num = 10;
+if (num < 5){
+    console.log("little number");
+} else if(num > 10){
+    console.log("big number")
+} else {
+    console.log("monkey")
+}
