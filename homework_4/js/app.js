@@ -136,3 +136,6 @@ console.log(sum);
 //
 // SECTION B - Easy Does It:
 // 1.
+const quotes = ["Hey dude.", "What is up?", "Killer, bro."];
+// SECTION C - Accessing Elements:
+// 1.
