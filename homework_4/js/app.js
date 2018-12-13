@@ -56,4 +56,10 @@ console.log(a * a === d);
 console.log(48 == '48');
 //
 //    D. The farm
-//
+// 1.
+let animal = "cow";
+if (animal === "cow"){
+    console.log("mooooo");
+} else {
+    console.log("Hey! You're not a cow.");
+};
