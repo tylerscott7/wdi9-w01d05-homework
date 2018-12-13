@@ -137,5 +137,13 @@ console.log(sum);
 // SECTION B - Easy Does It:
 // 1.
 const quotes = ["Hey dude.", "What is up?", "Killer, bro."];
+//
 // SECTION C - Accessing Elements:
 // 1.
+const randomThings = [1, 10, "Hello", true];
+let firstElement = randomThings[0];
+// 2. 
+randomThings[2] = "World";
+// 3.
+console.log(randomThings[2]);
+//
