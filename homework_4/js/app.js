@@ -259,4 +259,15 @@ function calculateCube (num) {
     return num * num * num;
 }
 console.log(calculateCube(5));
+// D.
+function isVowel (str){
+    let vowels = 'aeiou'
+    if (vowels.includes(str)){
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isVowel('t'));
+console.log(isVowel('i'));
 //
