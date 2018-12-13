@@ -373,9 +373,15 @@ console.log(getRandomElement(quotes2))
 //
 // OBJECTS
 // A.
-let user = {
+const user = {
     name: "Bobby",
     email: "yass.edu",
     age: 7,
     purchased: [],
 };
+// B. Update The User without changing original
+const newUser = new user;
+newUser.email = "ayyy.edu";
+// 2.
+newUser.age++
+// C. Adding keys and values
