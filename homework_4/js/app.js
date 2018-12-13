@@ -373,14 +373,14 @@ console.log(getRandomElement(quotes2))
 //
 // OBJECTS
 // A.
-const User = {
+const user = {
     name: "Bobby",
     email: "yass.edu",
     age: 7,
     purchased: [],
 };
 // B. Update The User without changing original
-const newUser = User;
+const newUser = user;
 newUser.email = "ayyy.edu";
 // 2.
 newUser.age++
@@ -426,3 +426,15 @@ for (let i=0;i<newUser.friend.purchased.length;i++){
     console.log(newUser.friend.purchased[i]);
 }
 // G. Functions on objects
+// 1.
+function updateUser() {
+    newUser.age+=1;
+    newUser.name.toUpperCase();
+}
+// 2.
+function oldAndLoud(person) {
+    person.age+=1;
+    person.name.toUpperCase();
+    return person
+}
+console.log(oldAndLoud(user));
