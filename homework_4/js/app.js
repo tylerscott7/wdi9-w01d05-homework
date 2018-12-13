@@ -147,3 +147,13 @@ randomThings[2] = "World";
 // 3.
 console.log(randomThings[2]);
 //
+// SECTION D - Change Values
+// 1. 
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+let thirdElement = ourClass[2];
+// 2. 
+ourClass[4]= "Octocot";
+// 3.
+ourClass.push("Cloud City");
+//
+// SECTION E - Mix It Up
