@@ -438,3 +438,32 @@ function oldAndLoud(person) {
     return person
 }
 console.log(oldAndLoud(user));
+// Cat combinator
+// 1. Mama Cat
+const cat1 = {
+    name: "kitty",
+    breed: "calico",
+    age: "5",
+}
+console.log(cat1.age)
+console.log(cat1.breed)
+// 2. Papa cat
+const cat2 = {
+    name: "lucky",
+    breed: "siamese",
+    age: "7",
+}
+// 3. Combine Cats!
+function combineCats(mama,papa){
+    const cat = {
+        name: mama.name + papa.name,
+        breed: mama.breed + '-' + papa.breed,
+        age: 1,
+    }
+    console.log(mama);
+    console.log(papa);
+    console.log(cat);
+}
+combineCats(cat1,cat2);
+// 4. Cat Brain Bender
+combineCats(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)),combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)));
