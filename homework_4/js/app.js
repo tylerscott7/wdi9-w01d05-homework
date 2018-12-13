@@ -317,4 +317,20 @@ function transmogrify (num1,num2,num3){
     return Math.pow(num1*num2,num3)
 }
 console.log(transmogrify(5,3,2))
-// J.
+// J. REVERSE
+function reverseWordOrder(string){
+    //iterate through characters to find space.
+    const arrReverse = []
+    let lastSpaceIndex = -1
+    for (let i=0; i<string.length; i++){
+        if (string.charAt(i) == ' '){
+            arrReverse.unshift(string.substr(lastSpaceIndex+1,i))
+            lastSpaceIndex = i
+            console.log(arrReverse)
+        }
+    }
+    return arrReverse.toString() //Make sure to get rid of commas
+}
+console.log(reverseWordOrder("Ishmael me Call"));
+console.log(reverseWordOrder("I use Lâncome on my comb"));
+// K.
