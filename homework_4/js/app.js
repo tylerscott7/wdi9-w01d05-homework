@@ -334,3 +334,39 @@ function reverseWordOrder(string){
 console.log(reverseWordOrder("Ishmael me Call"));
 console.log(reverseWordOrder("I use Lâncome on my comb"));
 // K.
+// 1.
+function rand10 (){
+    return Math.ceil(Math.random()*10);
+}
+console.log(rand10())
+console.log(rand10())
+console.log(rand10())
+// 2.
+function rand100 (){
+    return Math.ceil((Math.random()*90)+10);
+}
+console.log(rand100())
+console.log(rand100())
+console.log(rand100())
+// 3.
+function rand3 (){
+    return (Math.random()*(13267-532))+532;
+}
+console.log(rand3())
+console.log(rand3())
+console.log(rand3())
+// 4.
+function rand10_2 (){
+    return (Math.random()*9)+1;
+}
+console.log(rand10_2())
+console.log(rand10_2())
+console.log(rand10_2())
+// 5.
+const quotes2 = ["Hey dude.", "What is up?", "Killer, bro.", "Dude suh."];
+function getRandomElement (arr){
+    return arr[Math.floor(Math.random()*arr.length)];
+}
+console.log(getRandomElement(quotes2))
+console.log(getRandomElement(quotes2))
+console.log(getRandomElement(quotes2))
