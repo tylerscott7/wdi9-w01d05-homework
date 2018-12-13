@@ -113,7 +113,7 @@ for (let i=0;i<=100;i++){
     bank_account2 += i*2;
 };
 console.log(bank_account2);
-// SECTION E - SAVINGS ACCOUNT:
+// SECTION E - Multiples:
 let sum = 0;
 for (let i=0; i<1000;i++){
     if ((i%5 == 0)||(i%3 == 0)){
@@ -121,3 +121,18 @@ for (let i=0; i<1000;i++){
     };
 };
 console.log(sum);
+// PART 3: Arrays & Control Flow
+// SECTION A - Talk About it:
+// 1. What are the things in an array called?
+// A. The things in an array are called elements or indexes.
+// 
+// 2. Do arrays guarantee those things will be in order?
+// A. Depends on what order you mean. They will be in
+//    the order that you entered them firstly. Other than
+//    that, you may sort the elements.
+//
+// 3. What real-life thing could you model with an array?
+// A. One could model a list of their favorite foods.
+//
+// SECTION B - Easy Does It:
+// 1.
