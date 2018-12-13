@@ -270,4 +270,10 @@ function isVowel (str){
 }
 console.log(isVowel('t'));
 console.log(isVowel('i'));
+// E.
+function getTwoLengths (str1, str2){
+    const arr = [str1.length,str2.length]
+    return arr
+}
+console.log(getTwoLengths('i','yass'));
 //
