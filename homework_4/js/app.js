@@ -397,3 +397,22 @@ newUser.purchased.push("Merino jodhpurs");
 // 4.
 console.log(newUser.purchased[2]);
 // E. Object Within Object
+// 1.
+newUser.friend = {
+    name: "tyler",
+    age: 24,
+    location: "denver",
+    purchased: [],
+}
+// 2.
+console.log(newUser.friend[0]);
+// 3.
+console.log(newUser.friend[2]);
+// 4.
+newUser.friend[1]=26;
+// 5.
+newUser.friend.purchased.push("The One Ring");
+// 6.
+newUser.friend.purchased.push("A Latte");
+// 7.
+console.log(newUser.friend.purchased[1]);
