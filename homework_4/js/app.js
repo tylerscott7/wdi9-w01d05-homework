@@ -370,3 +370,12 @@ function getRandomElement (arr){
 console.log(getRandomElement(quotes2))
 console.log(getRandomElement(quotes2))
 console.log(getRandomElement(quotes2))
+//
+// OBJECTS
+// A.
+let user = {
+    name: "Bobby",
+    email: "yass.edu",
+    age: 7,
+    purchased: [],
+};
