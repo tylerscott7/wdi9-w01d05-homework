@@ -276,4 +276,13 @@ function getTwoLengths (str1, str2){
     return arr
 }
 console.log(getTwoLengths('i','yass'));
-//
+// F.
+function getMultipleLengths (strArray){
+    const numArray = []
+    for (let i=0; i<strArray.length; i++){
+        numArray.push(strArray[i].length);
+    }
+    return numArray;
+}
+console.log(getMultipleLengths(['bob','notbob','sally','notsally']))
+// 
