@@ -173,3 +173,12 @@ console.log(myArray.reverse());
 //
 // SECTION F - Biggie Smalls
 // 1.
+let int = 5;
+if (int < 100){
+    console.log("little number");
+} else {
+    console.log("big number");
+};
+//
+// SECTION G - Monkey In The Middle
+// 1.
