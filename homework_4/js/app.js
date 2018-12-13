@@ -250,4 +250,8 @@ const kristynsCloset = [
   function printGreeting (name){
       console.log(`Hello there, ${name}`)
   }
-  
+  // B.
+  function printCool (name){
+      console.log(`${name} is cool`)
+  }
+// C.
