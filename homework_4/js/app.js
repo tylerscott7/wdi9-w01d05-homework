@@ -416,3 +416,13 @@ newUser.friend.purchased.push("The One Ring");
 newUser.friend.purchased.push("A Latte");
 // 7.
 console.log(newUser.friend.purchased[1]);
+// F. LOOPS
+// 1.
+for (let i=0;i<newUser.purchased.length;i++){
+    console.log(newUser.purchased[i]);
+}
+// 2.
+for (let i=0;i<newUser.friend.purchased.length;i++){
+    console.log(newUser.friend.purchased[i]);
+}
+// G. Functions on objects
